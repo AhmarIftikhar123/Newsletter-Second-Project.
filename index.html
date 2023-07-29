@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <title>Newsletter</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id="leftside">
+            <h1>Stay Updated!</h1>
+            <p>join 60,000+ product managers receiving monthly  updates on: </p>
+
+            <div class="labels">
+                <input type="checkbox"  id="discovery">
+                <label for="discovery">Product discovery and building what matters</label>
+                <br>
+                <input type="checkbox"  id="updates">
+                <label for="updates">Measuring to ensure updates are a success</label>
+                <br>
+                <input type="checkbox"  id="add">
+                <label for="add">Add much more!</label>
+
+                
+            </div>
+
+            <div id="emaildata">
+                <label email="">Email Address</label><span class="emailError" id="emailError"></span >
+                <br>
+                <input type="email"  id="useremail" placeholder="xyz@gmail.com" required>
+                <br>
+            </div>
+
+
+            <button type="submit" id="submit-btn">Subscribe to Monthly Newsletter</button>
+
+
+        </div>
+
+
+        <img src="images/left.svg" alt="rightside" id="rightside" height="500px">
+
+        
+    </div>
+</body>
+<script  src="script.js" ></script>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  background-color: hsl(234, 29%, 20%);
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  padding: 25px;
+  border: 2px solid hsl(240, 2%, 61%);
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  outline: none;
+}
+
+#leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5px;
+  width: 50%;
+}
+
+#leftside h1 {
+  margin-block: 20px;
+  font-weight: 900;
+}
+#leftside p {
+  margin-block: 20px;
+  margin-inline: 4px;
+}
+
+#emaildata {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.emailError {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
+  margin-right: 65px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#emaildata {
+  padding-top: 13%;
+}
+
+.labels label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#emaildata label {
+  padding-left: 2px;
+  margin-block: 15px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#emaildata input[type="email"] {
+  padding: 10px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid hsl(234, 29%, 20%);
+  font-size: 15px;
+  font-weight: 400;
+  width: 55%;
+}
+
+button[type="submit"] {
+  width: 60%;
+  margin-top: 28px;
+  padding: 13px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: gray;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+#rightside {
+  position: relative;
+  left: 8%;
+}
